@@ -18,6 +18,10 @@ h1 {
   color: red;
   background-color: white;
 }
+h2 {
+  color: black;
+  text-align: center;
+}
 nav {
   display: flex;
   border: 1px solid black;
