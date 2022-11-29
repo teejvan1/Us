@@ -5,7 +5,6 @@
 }
 body {
   font-family: Arial, Helvetica, sans-serif;
-  color: #0b7285;
   /* background-color: #ffdeeb; */
 }
 h1 {
@@ -18,9 +17,8 @@ h1 {
   color: red;
   background-color: white;
 }
-h2 {
-  color: black;
-  text-align: center;
+p {
+  line-height: 1.8;
 }
 nav {
   display: flex;
@@ -43,4 +41,26 @@ a:visited {
 }
 a:hover {
   background-color: #0c8599;
+}
+table {
+  border-collapse: collapse;
+  border: 1px solid black;
+  width: 100%;
+  table-layout: fixed;
+  margin: 10px 0px;
+}
+table tr:nth-child(odd) {
+  background-color: #dee2e6;
+}
+table tr:nth-child(even) {
+  background-color: #f8f9fa;
+}
+table tr th {
+  border: 1px solid black;
+  padding: 10px 13px;
+}
+table tr td {
+  text-align: center;
+  border: 1px solid black;
+  padding: 7px 10px;
 }
