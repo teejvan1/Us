@@ -42,10 +42,8 @@ a:visited {
 a:hover {
   background-color: #0c8599;
 }
-section {
-  background-image: url(home.jpg);
-  height: 100vh;
-  background-size: cover;
+section img {
+  height: 78.85vh;
 }
 table {
   border-collapse: collapse;
