@@ -39,8 +39,10 @@ a {
 a:link,
 a:visited {
   color: white;
+  transition: all 0.3s;
 }
-a:hover {
+a:hover,
+a: active {
   background-color: #0c8599;
 }
 section img {
