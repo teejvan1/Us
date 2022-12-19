@@ -1,6 +1,6 @@
 .home {
-  background: url('../img/home.jpg'),
-    linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9));
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url('../img/home.jpg'),;
   background-size: cover;
   background-position: center;
   height: 100vh;
