@@ -38,8 +38,6 @@ a:visited {
 a:hover,
 a:active {
   background-color: #6e6167;
-  border-left: 0.05rem solid black;
-  border-right: 0.05rem solid black;
 }
 h1 {
   text-align: center;
