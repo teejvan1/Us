@@ -27,6 +27,11 @@ table tr td {
   border: 0.1rem solid black;
   padding: 0.7rem 1rem;
 }
+audio {
+  margin: 0 auto 3rem;
+  display: block;
+}
+
 @media (max-width: 750px) {
   table {
     width: 96%;
