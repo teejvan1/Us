@@ -14,3 +14,36 @@
 .home2 {
   display: none;
 }
+h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 400;
+  margin: 1.5rem;
+}
+
+.books-row {
+  display: flex;
+  justify-content: space-around;
+}
+
+.book {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.book a {
+  display: inline-block;
+  border: none;
+}
+a img {
+  width: 18rem;
+  height: 27rem;
+}
+.book p {
+  text-align: center;
+}
+.book a:hover,
+.book a:active {
+  background-color: white;
+}
