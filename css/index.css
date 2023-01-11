@@ -47,3 +47,9 @@ a img {
 .book a:active {
   background-color: white;
 }
+
+@media (max-width: 750px) {
+  .books-row {
+    flex-wrap: wrap;
+  }
+} ;
